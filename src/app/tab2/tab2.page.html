@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar >
+    <ion-title>
+      Tabel Mahasiswa
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 2</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <table class="mahasiswa">
+    <tr>
+      <th>NPM</th>
+      <th>Nama</th>
+      <th>Prodi</th>
+    </tr>
+    <tr *ngFor="let data of allData">
+      <td>{{data.NPM}}</td>
+      <td>{{data.Nama}}</td>
+      <td>{{data.Prodi}}</td>
+    </tr>
+  </table>
+
+
+ 
+</ion-content>

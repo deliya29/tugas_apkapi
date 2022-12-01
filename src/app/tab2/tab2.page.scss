@@ -1,0 +1,22 @@
+.mahasiswa{
+    font-family: Arial,Helvetica,sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.mahasiswa td, .mahasiswa th {
+    border:1px solid #ddd;
+    padding: 8px;
+}
+
+.mahasiswa tr:nth-child(even){background-color: #ddd;}
+.mahasiswa tr:hover {background-color: #ddd;}
+.mahasiswa th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color:  #6ed31c;
+}
+.mahasiswa td {
+    text-align: center;
+    color: black;
+}
